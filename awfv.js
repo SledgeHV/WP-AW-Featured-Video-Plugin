@@ -25,9 +25,7 @@ jQuery(function($){
         }).open();
     });
 
-    /*
-     * Remove image event
-     */
+
     $('body').on('click', '.awfv_remove_button', function(){
         $(this).hide().prev().val('').prev().addClass('button').html('Select video');
         $('#awfv_container video').hide();
