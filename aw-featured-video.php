@@ -81,7 +81,6 @@ function awfv_save_metabox( $post_id ) {
         return $post_id;
 
     $meta_key = 'awfv_video';
-
     update_post_meta( $post_id, $meta_key, $_POST[$meta_key] );
 
     return $post_id;
